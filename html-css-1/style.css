@@ -1,0 +1,144 @@
+header {
+  height: 60px;
+  background-color: rgba(169, 169, 169, 0.719);
+}
+
+.top-portion {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: space-between;
+}
+
+#name1 {
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: Arial, Gadget, sans-serif;
+  margin: auto;
+  margin-top: 25px;
+  flex-grow: 0.5;
+}
+#name2 {
+  color: whitesmoke;
+  font-size: 12px;
+  font-family: Arial, Gadget, sans-serif;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 35px;
+}
+#name3 {
+  color: whitesmoke;
+  font-size: 12px;
+  font-family: Arial, Gadget, sans-serif;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 35px;
+}
+
+#name4 {
+  color: whitesmoke;
+  font-size: 12px;
+  font-family: Arial, Gadget, sans-serif;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 35px;
+}
+
+pre {
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  color: rgb(255, 255, 131);
+  font-size: 58px;
+  font-weight: 575;
+  font-family: Arial, Gadget, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#container-text {
+  margin: auto;
+  margin-top: 100px;
+}
+
+main {
+  height: 250px;
+  background-color: white;
+}
+
+.boxes {
+  height: 225px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin-top: 30px;
+}
+
+#box-1 {
+  width: 205px;
+  height: 205px;
+  border-radius: 24px;
+  background: rgb(133, 255, 214);
+}
+
+#box-2 {
+  width: 205px;
+  height: 205px;
+  border-radius: 24px;
+  background: rgb(133, 255, 214);
+}
+
+#box-3 {
+  width: 205px;
+  height: 205px;
+  border-radius: 24px;
+  background: rgb(133, 255, 214);
+}
+
+body {
+  height: 300px;
+  background-color: white;
+}
+
+.rectangles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  margin-top: 30px;
+}
+
+#rectangles-1 {
+  width: 230px;
+  height: 115px;
+  background: rgb(255, 187, 128);
+}
+
+#rectangles-2 {
+  width: 230px;
+  height: 115px;
+  background: rgb(255, 187, 128);
+}
+
+footer {
+  height: 250px;
+  background-color: white;
+}
+
+.text-box {
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Gadget, sans-serif;
+  text-decoration: none;
+}
+
+.photo-box {
+  height: 200px;
+  width: 200px;
+}
