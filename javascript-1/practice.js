@@ -2,36 +2,48 @@
 
 // Create a variable called 'myName' that's value is your name
 
-// Code here
+var myName = "Brandon Craig"; // Code here
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' that's value is your favorite number
 
-//Code here
+var faveNum = 3; //Code here
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and set it to true
 
-//Code here
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum of those two parameters.
 
-//Code here
+function sum(num1, num2) {
+  return num1 + num2;
+} //Code here
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called x. Check to see if x is equal to true. If it is, return true as a boolean. If x does not equal true, return false as a boolean
-
+function lovesCodeChecker(x) {
+  if (x === true) {
+    return true;
+  } else {
+    return false;
+  }
+}
 //Code here
 
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
+function oddChecker(num) {
+  if (num % 2 == 0) return "the number is even";
+  else return "the number is odd";
+}
 //Code here
 
 //////////////////PROBLEM 7////////////////////
@@ -43,21 +55,21 @@
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice
-const faveColors = ['red', 'green', 'black']
-
+const faveColors = ["red", "green", "black"];
+const colorCopy = faveColors.slice(0, 3);
 //Code Here
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push
 
-//Code Here
+colorCopy.push("white"); //Code Here
 
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
-const numbers = [1, 2, 3, 4, 5]
-
+const numbers = [1, 2, 3, 4, 5];
+const middleNums = numbers.slice(1, 4);
 //Code Here
 
 //////////////////PROBLEM 11////////////////////
@@ -81,8 +93,7 @@ const numbers = [1, 2, 3, 4, 5]
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
-const myNumbers = [3, 55, 788, 2, 1]
-
+const myNumbers = [3, 55, 788, 2, 1];
 
 //////////////////PROBLEM 14////////////////////
 
@@ -111,7 +122,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
-const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
+const notGeorge = ["Louis", "Ted", "Bill", "Sharon", "Mark", "Angela"];
 
 // Code Here
 
@@ -119,18 +130,16 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Using the people array, let's filter out everyone that isn't our friend to a new array called 'enemies'. Use .filter()
 const people = [
-	{ name: 'Landy', friend: true, awesomeLevel: 10 },
-	{ name: 'Jeremy', friend: true, awesomeLevel: 10 },
-	{ name: 'Bart', friend: false, awesomeLevel: 3 },
-	{ name: 'Stephanie', friend: false, awesomeLevel: 6 },
-	{ name: 'Serena', friend: true, awesomeLevel: 8 },
-	{ name: 'George', friend: true, awesomeLevel: 7 }
-]
+  { name: "Landy", friend: true, awesomeLevel: 10 },
+  { name: "Jeremy", friend: true, awesomeLevel: 10 },
+  { name: "Bart", friend: false, awesomeLevel: 3 },
+  { name: "Stephanie", friend: false, awesomeLevel: 6 },
+  { name: "Serena", friend: true, awesomeLevel: 8 },
+  { name: "George", friend: true, awesomeLevel: 7 }
+];
 
 // Code Here
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
-
-// Code Here
